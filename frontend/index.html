@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bater Ponto</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <header>
+        <h1>Funcionário Modernia</h1>
+        <p>empresa</p>
+      </header>
+      <div class="icon">
+        <img src="clock-icon.png" alt="Clock Icon">
+      </div>
+      <h2>Bater Ponto</h2>
+      <form id="pontoForm">
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        </div>
+        <button type="button" onclick="baterPonto()">Bater Ponto</button>
+      </form>
+      <div id="mensagem" class="mensagem"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
